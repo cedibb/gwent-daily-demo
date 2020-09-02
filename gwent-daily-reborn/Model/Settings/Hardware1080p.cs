@@ -113,12 +113,12 @@ namespace gwent_daily_reborn.Model.Settings
         public Rectangle LeaderLocation => new Rectangle(28, 696, 134, 152);
 
         public RectoColor LeaderChargeOn => new RectoColor(
-            new Rectangle(35, 752, 5, 5),
-            Color.FromArgb(126, 24, 8), 50, 24);
+            new Rectangle(58, 797, 3, 3),
+            Color.FromArgb(128, 75, 31), 50, 24);
 
         public RectoColor LeaderChargeOff => new RectoColor(
-            new Rectangle(35, 752, 5, 5),
-            Color.FromArgb(75, 16, 9), 50, 24);
+            new Rectangle(58, 797, 3, 3),
+            Color.FromArgb(75, 55, 33), 50, 24);
 
         public Rectangle LeaderChargeLocationBig => new Rectangle(33, 902, 51, 51);
 
